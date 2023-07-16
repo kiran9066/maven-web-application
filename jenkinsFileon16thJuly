@@ -1,0 +1,9 @@
+node
+{
+def mavenHome = tool name: 'maven 3.9.3'
+
+stage('checkoutcode')
+{
+
+}
+}
