@@ -10,7 +10,7 @@
 </head>
 <body>
 <h1 align="center">Welcome to Mithun Technologies. Ph No: +91-9980923226 Marathahalli,Bengaluru,Karnataka </h1>
-<h1 align="center"> Mithun Technologies is Very very very  very  Good Training center for the  DevOps with AWS in Bangalore India and also for Job Assitance Job Support also...Teaching Real Time scnerios</h1>
+<h1 align="center"> Mithun Technologies is Very  Good Training center for the  DevOps with AWS in Bangalore India and also for Job Assitance Job Support also...Teaching Real Time scnerios</h1>
 <hr>
 <br>
 	<h1><h3> Server Side IP Address </h3><br>
