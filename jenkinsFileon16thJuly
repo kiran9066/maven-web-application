@@ -1,9 +1,19 @@
 node
 {
-def mavenHome = tool name: 'maven 3.9.3'
-
-stage('checkoutcode')
-{
-
-}
+    
+    def mavenHome = tool name:'maven 3.9.3'
+    
+    stage('checkoutcode')
+    {
+        git branch: 'qa', credentialsId: '2b1193af-be80-43b2-864e-b4ea0ee7cb22', url: 'https://github.com/kiran9066/maven-web-application.git'
+    }
+    
+    stage('build')
+    
+    {
+    
+    sh "${mavenHome}/bin/ mvn clean package"
+    
+    }
+    
 }
